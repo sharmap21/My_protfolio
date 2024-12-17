@@ -1,0 +1,273 @@
+.main-container {
+  background-color: #f0f0f0;
+  height: 100%;
+  padding: 8px;
+  /* background-size: cover; */
+  border-bottom: solid 18px #495057;
+  /* margin-bottom: 55px; */
+}
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 5px #495057;
+  margin-top: 25px;
+}
+
+.navigation-links {
+  margin-right: 55px;
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #495057;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: sans-serif;
+}
+.name {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  word-spacing: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.h2 {
+  color: #495057;
+}
+
+.about-section {
+  font-family: sans-serif;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.my-image {
+  border-width: 200px; /* Set desired width */
+  height: 200px; /* Set desired height */
+  border-radius: 50%; /* This makes it a circle */
+  object-fit: cover; /* Ensures the image fits within the circle */
+  margin-left: 15px;
+}
+
+.bio-content {
+  margin-left: 55px;
+  margin-right: 55px;
+  font-family: sans-serif;
+  color: #ced4da;
+  font-size: 20px;
+  line-height: 28px;
+  background-color: #495057;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+}
+
+.skill-set-section {
+  font-family: sans-serif;
+  margin-left: 15px;
+  margin-bottom: 100px;
+}
+
+.skill-lists {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  margin-bottom: 45px;
+}
+
+.footer {
+  font-family: sans-serif;
+  margin-left: 15px;
+  margin-top: 55px;
+}
+
+.footer a {
+  color: #495057;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.media1 {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  color: #495057;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px;
+
+  margin-right: 20px;
+}
+
+.media2 {
+  display: flex;
+  align-items: center;
+}
+
+.professional-skills {
+  height: 280px;
+  box-shadow: 20px 20px 18px 2px #dee2e6;
+  padding: 25px;
+  border-radius: 25px;
+  line-height: 23px;
+}
+
+.Personal-skills {
+  /* height: 300px; */
+  box-shadow: 20px 20px 18px 2px #dee2e6;
+  padding: 25px;
+  border-radius: 25px;
+  width: 400px;
+}
+
+.socialmedia-links {
+  margin-left: 120px;
+  line-height: 45px;
+  list-style: none;
+  display: flex;
+}
+
+.project-section {
+  margin-top: 15px;
+}
+
+.project-bio {
+  width: 500px;
+  line-height: 20px;
+  margin-top: 25px;
+}
+
+.media {
+  display: flex;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 55px;
+}
+
+.project-title {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.project-1 {
+  background-color: #495057;
+  color: #ced4da;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.project-2 {
+  background-color: #495057;
+  color: #ced4da;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+a:hover {
+  color: #ced4da;
+  /* font-size: 25px; */
+  cursor: pointer;
+}
+
+.icons {
+  height: 35px;
+  width: 35px;
+}
+
+footer p {
+  font-family: sans-serif;
+  color: #adb5bd;
+  text-align: end;
+  margin-right: 15px;
+}
+
+.cerhead {
+  color: #495057;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.certificate-section {
+  font-family: sans-serif;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.certificate-heading {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.certificate-list {
+  color: #495057;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 55px;
+  line-height: 25px;
+  list-style: square;
+  display: inline-block;
+}
+
+.education-icon {
+  height: 20px;
+}
+
+.education_1 {
+  
+  width: 600px;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 10px;
+  
+  padding: 15px;
+  border-radius: 25px;
+  
+  
+}
+
+span{
+  font-weight: lighter;
+
+
+}
+.education-bio{
+  font-weight: lighter
+}
+
+.education-content{
+  display: flex row;
+  /* justify-content: space-around; */
+  box-shadow: 50px 50px 50px 5px #dee2e6;
+  width: 800px;
+
+}
